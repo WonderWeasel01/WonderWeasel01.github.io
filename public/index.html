@@ -22,32 +22,38 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Home</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+
+
   </head>
   <body>
 
 
-        <div class="Navbar greenTransparent">
+        <div class="Navbar main-color">
             <div class="Header">
                 <a href="/">
                     <img class="Logo" src="Images/PNGS/minkostplan-logo-white.png" />
                 </a>
                 <ul class="headerLinks">
                     <li>
-                        <a href="/login">Kostplan</a>
+                        <a class="main-text" href="/About">About me</a>
                     </li>
                     <li>
-                        <a href="/omOs">Om os</a>
+                        <a href="/projects">Projects</a>
                     </li>
                     <li>
-                        <a href="/kontakt">Kontakt</a>
+                        <a href="/Contact">Contact</a>
                     </li>   
                 </ul>
             </div>
         
             <div class="Header2">
-                <a class="Button green" href="/login">
-                    <i class="fa-solid fa-plate-wheat" style="color: #ffffff;"></i>
-                    <div  class="ButtonText">LOGIN</div>
+                <a class="Button main-color2" href="/login">
+                  <i class="fa-solid fa-right-to-bracket" style="color: #ffffff;"></i>
+                    <div  class="ButtonText">Get Access</div>
             </a>
             </div>
         </div>
@@ -55,13 +61,18 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="column">
-                        <h1 class="forsideH1">MINKOSTPLAN</h1>
-                        <div class="headerPText"> Få ugentlige kostplaner, skræddersyet til dine mål i de første 30 dage til 0 kr,
-                            helt uden binding. Herefter kun <span style="text-decoration: underline;">196 kr. om måneden.</span></div>
+                        <h1 class="forsideH1 main-text">WentzelDesign</h1>
+                        <div class="headerPText main-text"> 
+                          Welcome to Wentzel Design, where creativity meets convenience in web design. Our platform offers intuitive design tools tailored for developers, enabling seamless creation of stunning websites. 
+
+                          <span class="text-secondary"  style="text-decoration: underline;"> Sign up for free</span>
+                           and unlock a suite of powerful features designed to elevate your projects effortlessly. Join a community of developers and designers transforming ideas into extraordinary digital experiences.
                         
-                        <a href="/opretBruger" class="Button green" style="margin-left: 20px;">
-                            <div class="ButtonText">KOM I GANG</div>
-                            <i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i>
+                        </div>
+                        
+                        <a href="/opretBruger" class="Button main-color2" style="margin-left: 20px;">
+                            <div class="ButtonText">Sign up</div>
+                            <i class="fa-solid fa-right-to-bracket" style="color: #ffffff;"></i>
                         </a>
                     </div>
                 </div>
@@ -78,24 +89,24 @@
         <section class="Preview">
     
             <div class="h2text">
-                <h2>21 SKRÆDDERSYET RETTER TIL DIG HVER UGE</h2>
+                <h2 class="main-text" >My website projects</h2>
             </div>
             <div class="Mealshowcase">
     
                 <div class="Frame">
-                    <img class="Yoghurt" src="Images/PNGS/vicky-ng-yIh0i6TYGrs-unsplash-removebg-preview (1).png" />
-                    <h2 class="YoghurtText">Yoghurt frugtskål</h2>
-                    <p>Start din dag med en lækker yoghurt-frugtskål, fyldt med friske, farverige frugter og cremet yoghurt - en sund, smagfuld nydelse!</p>
+                    <img class="Webimage" src="Assets/WentzelEvent.png" />
+                    <h2 >Wentzel Event</h2>
+                    <p>Wentzel event is Located in Denmark, Wentzel Event specializes in event management services, offering seamless planning and execution for weddings, corporate events, and special occasions.</p>
                 </div>
                 <div class="Frame">
-                    <img class="CaesarSalad" src="Images/PNGS/caesar salad.png" />
-                    <h2 class="CaesarSaladText">Caesar salad</h2>
-                    <p>Nyd en klassisk Caesar-salat med sprød romaine, cremet dressing og knasende croutons - en tidløs favorit, der aldrig skuffer!</p>
+                    <img class="Webimage" src="" />
+                    <h2 >Coming soon..</h2>
+                    <p></p>
                 </div>
                 <div class="Frame">
-                    <img class="Salmonbowl" src="Images/PNGS/ella-olsson-KPDbRyFOTnE-unsplash-removebg-preview.png" />
-                    <h2 class="salmonText">Laks</h2>
-                    <p>Nyd en klassisk Caesar-salat med sprød romaine, cremet dressing og knasende croutons - en tidløs favorit, der aldrig skuffer!</p>
+                    <img class="Webimage" src="" />
+                    <h2>Coming soon..</h2>
+                    <p></p>
                 </div>
             </div>
         </section>
