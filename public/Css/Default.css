@@ -1,0 +1,123 @@
+html{
+ 
+    padding: 0;
+    font-family: Josefin Sans, sans-serif;
+}
+
+.Head{
+  margin-top: 130px;
+}
+
+
+
+
+/*Default Button*/
+.Button {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.ButtonStroke{
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    border: 2px #79D779 solid;
+}
+
+.ButtonText {
+    font-size: 23px;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+    line-height: 1;
+    padding-top: 6px;
+}
+.Button a:link, .Button a:visited{
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+a:link, a:visited{
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Color Scheme*/
+.green{
+    background-color: #87CC83;
+}
+
+.greenTransparent{
+    background-color: #ddffdd79;
+}
+
+.grey{
+    background-color: #555;
+}
+
+
+/*Header*/
+.Logo {
+    width: 79px;
+    height: 82px;
+}
+.Navbar{
+    display: flex;
+    padding: 20px;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;    
+    z-index: 3;
+    margin-bottom: 150px;
+    align-items: center;
+}
+.headerLinks{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 23px;
+    text-transform: uppercase;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    text-decoration: none;
+    gap: 40px;
+    list-style-type: none;
+    transition: transform 2s;
+}
+
+.Header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 20px;
+}
+.Header2 {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-right: 60px;
+}
