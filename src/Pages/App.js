@@ -3,52 +3,25 @@ import React from 'react';
 
 
 
+
 /*Css*/
-import '../Css/index.css';
-import '../Css/Default.css';
+
 
 /*Assets*/
-import logo from '../Assets/LogoSolo.svg'; 
+
 import VideoBackground from '../Assets/Background.mp4';
 import WentzelEvent from '../Assets/WentzelEvent.png';
 
 
 /*ICONS*/
-import { HiChevronDoubleRight } from "react-icons/hi";
-import { CiLogin } from "react-icons/ci";
-
+import { FaArrowDown } from "react-icons/fa";
 
 
 
 function App() {
   return (
     <div className="App">
-<div class="Navbar main-color">
-      <div class="Header">
-        <a href="/">
-          <img class="Logo" src={logo} alt='' />
-        </a>
-        <ul class="headerLinks">
-          <li>
-            <a class="main-text" href="/About">About me</a>
-          </li>
-          <li>
-            <a href="/projects">Projects</a>
-          </li>
-          <li>
-            <a href="/Contact">Contact</a>
-          </li>
-        </ul>
-      </div>
 
-      <div class="Header2">
-        <a class="Button main-color2" href="/login">
-          <div class="ButtonText">Get Access</div>
-          <HiChevronDoubleRight />
-
-        </a>
-      </div>
-    </div>
     <section class="VideoBackground">
       <div class="container-fluid">
         <div class="row">
@@ -69,12 +42,14 @@ function App() {
             </div>
 
             <a
-              href="/opretBruger"
+              href='#Preview'
               class="Button main-color2"
        
             >
-              <div class="ButtonText">Sign up</div>
-              <CiLogin />
+              <div class="ButtonText">View Projects</div>
+              <FaArrowDown />
+
+
 
             </a>
           </div>
@@ -95,7 +70,7 @@ function App() {
         <div class="backgroundOverlay"></div>
       </div>
     </section>
-    <section class="Preview">
+    <section class="Preview" id='Preview'>
       <div class="h2text">
         <h2 class="main-text">My website projects</h2>
       </div>
@@ -123,6 +98,12 @@ function App() {
     </section>
     </div>
   );
+
+  
 }
 
+
+
+
 export default App;
+
