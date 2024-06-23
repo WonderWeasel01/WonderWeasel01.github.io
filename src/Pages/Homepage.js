@@ -1,10 +1,8 @@
 /*Import React*/
 import React from 'react';
 
-
-
-
 /*Css*/
+import '../Css/Homepage.css';
 
 
 /*Assets*/

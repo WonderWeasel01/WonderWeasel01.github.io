@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom/client';
 import AppRoutes from './Components/Routes'; // Import the Routes file
 import reportWebVitals from './Components/reportWebVitals';
 
-import './Css/index.css';
-import './Css/Default.css';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

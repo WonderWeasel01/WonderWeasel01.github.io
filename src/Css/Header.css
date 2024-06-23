@@ -1,0 +1,22 @@
+.container {
+    background-Color: '#151f2e';
+    padding: '20px';
+    display: 'flex';
+    flex-Direction: 'row';
+    align-Items: 'baseline';
+    justify-Content: 'center';
+    gap: '20px';
+}
+.heading {
+    color: "white";
+    font-Size: '24px';
+    font-Weight: 'bold';
+    text-Decoration: 'none';
+}
+.logo {
+    width: "100px";
+    height: "100px";
+}
+.link {
+    text-Decoration: 'none',;
+}

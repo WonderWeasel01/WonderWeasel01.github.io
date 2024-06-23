@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client'; // Make sure to import ReactDOM correctly
 
-import '../Css/About.css'; // Import the About.css file
+import '../Css/About.css';
 
 import Background from '../Assets/aboutBackground.jpg'; // Import the VideoBackground file
 
@@ -13,17 +13,11 @@ function About() {
         <div class="row">
           <div class="column">
             <h1 class="forsideH1 main-text">ABOUT ME</h1>
-    
-
-             
-
-
-
           </div>
         </div>
         <div class="background">
           <div class="ImageWrapper">
-              <img class="Image" src={Background}/>
+              <img class="Image" src={Background} alt=''/>
           </div>
         </div>
         <div class="backgroundOverlay"></div>
