@@ -161,7 +161,7 @@ word-wrap: break-word;
 
 .column {
     width: 50%;
-    gap: 30px;
+    gap: 10px;
     display: flex;
     flex-direction: column;
     z-index: 2;
@@ -226,6 +226,8 @@ word-wrap: break-word;
 
 .Button{
     margin: 20px;
+    width: 300px !important;
+    height: 100px !important; 
 
 }
 

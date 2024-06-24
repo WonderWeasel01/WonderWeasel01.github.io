@@ -25,11 +25,11 @@ function App() {
             <div class="container-fluid">
               <div class="row">
                 <div class="column">
-                  <h1 class="forsideH1 main-text">WentzelDesign</h1>
-                  <h3 class="headerPText main-text">
+                  <h1 class="forsideH1 main-text">Wentzel <span>Design</span></h1>
+                  <h2 class="headerPText main-text">
                   Explore my creative portfolio showcasing a range of projects and discover how I can bring your vision to life with custom WordPress and React websites. Let’s build something amazing together!
-                    <h3 class="secondary-text" >Get a free consultaition. </h3>
-                  </h3>
+                    <h2 class="secondary-text" >Get a free consultaition. </h2>
+                  </h2>
 
                 
 
@@ -38,7 +38,7 @@ function App() {
                     class="Button main-color2"
             
                   >
-                    <h3 class="ButtonText">View Projects</h3>
+                    <h2 class="ButtonText">View Projects</h2>
                     <FaArrowDown />
 
 
@@ -71,7 +71,7 @@ function App() {
             <div class="Mealshowcase">
               <div class="Frame">
                 <img class="Webimage" src={WentzelEvent} alt='' />
-                <h3>Wentzel Event</h3>
+                <h2>Wentzel Event</h2>
                 <p>
                   Wentzel event is Located in Denmark, Wentzel Event specializes in
                   event management services, offering seamless planning and execution
@@ -80,12 +80,12 @@ function App() {
               </div>
               <div class="Frame">
                 <img class="Webimage" src="" alt='' />
-                <h3>Coming soon..</h3>
+                <h2>Coming soon..</h2>
                 <p></p>
               </div>
               <div class="Frame">
                 <img class="Webimage" src="" alt=''/>
-                <h3>Coming soon..</h3>
+                <h2>Coming soon..</h2>
                 <p></p>
               </div>
             </div>

@@ -89,11 +89,12 @@ export const Header = () => {
                         display: none;
                         flex-direction: column;
                         position: absolute;
-                        top: 60px;
+                        top: 100;
                         left: 0;
                         right: 0;
                         background-color: #1A1A1A;
                         padding: 1rem;
+                        z-index: 100;
                     }
                     .vbp-header-menu-button__svg {
                         display: none;
@@ -140,6 +141,7 @@ export const Header = () => {
                     }
                     body.menu-open .mobile-menu {
                         display: flex;
+
                     }
                     @media (max-width: 768px) {
                         .desktop-links {
