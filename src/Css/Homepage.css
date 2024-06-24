@@ -9,32 +9,13 @@ body{
     padding: 0;
 }
 
-h2{
-    font-weight: 600;
-    font-size: 32px;
-    font-style: bold;
-}
-
-h3{
-    font-weight: 600;
-    font-size: 24px;
-    font-style: bold;
-}
-
-p{
-    color : #000000;
-    font-weight: 400;
-    font-size: 16px;
-    font-style: normal;
-}
 
 .headerPText{
     color : white;
     font-weight: 100;
-    font-size: 23px;
-
+word-wrap: break-word;
     padding: 0 20px;
-    word-wrap: break-word;
+
 
 }
 
@@ -57,23 +38,9 @@ p{
 }
 
 
-.MinProfil {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    
-}
 
-.Homeframe, .Mealplan, .Login {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-.Hometext, .Mealplantext, .KomIgang, .Login {
-    font-size: 32px;
-    font-weight: 400;
-    word-wrap: break-word;
-}
+
+
 
 .Middleframe {
     width: 100%;
@@ -92,21 +59,7 @@ p{
     justify-content: center;
     align-items: flex-start;
 }
-.SundeMadretterAlleUgensDage, .FDinHeltEgenSkrDdersyetKostplanForKun49krOmUgenFDeFRste30DageHeltGratis {
-    color: black;
-    word-wrap: break-word;
-}
-.SundeMadretterAlleUgensDage {
-    width: 447px;
-    height: 118px;
-    font-size: 48px;
-    font-weight: 400;
-}
-.FDinHeltEgenSkrDdersyetKostplanForKun49krOmUgenFDeFRste30DageHeltGratis {
-    width: 400px;
-    height: 60px;
-    font-size: 16px;
-}
+
 
 
 .Mainframe {
@@ -120,9 +73,6 @@ p{
     gap: 10px;
 }
 
-.Foodbowl1{
-    height: 450px;
-}
 
 .Webimage{
     height: 150px;
@@ -155,6 +105,7 @@ p{
     gap: 20px;
     justify-content: center;
     border-radius: 5px;
+    flex-wrap: wrap;
 
 }
 
@@ -189,7 +140,7 @@ p{
 
 .VideoBackground {
     position: relative;
-    height: 100vh;
+    height: 85vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -201,6 +152,7 @@ p{
     margin-left: auto;
 }
 
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -208,12 +160,12 @@ p{
 }
 
 .column {
-    width: 800px;
+    width: 50%;
     gap: 30px;
     display: flex;
     flex-direction: column;
     z-index: 2;
-    margin-top: 300px;
+    margin-top: 10vw;
     margin-left: 100px;
 }
 
@@ -250,8 +202,6 @@ p{
 }
 
 .forsideH1{
-    font-size: 100px;
-    font-weight: 400;
     color: white;
     text-align: left;
     margin: 0;
@@ -274,5 +224,8 @@ p{
     padding-bottom: 200px;
 }
 
+.Button{
+    margin: 20px;
 
+}
 
