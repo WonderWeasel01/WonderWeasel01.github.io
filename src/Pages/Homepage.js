@@ -20,6 +20,13 @@ import { FaArrowDown } from "react-icons/fa";
 function App() {
   return (
     <div className="App">
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Wentzel Design</title>
+    </head>
+
       <section> 
           <div class="VideoBackground">
             <div class="container-fluid">
@@ -68,7 +75,7 @@ function App() {
             <div class="h2text">
               <h2 class="main-text">My website projects</h2>
             </div>
-            <div class="Mealshowcase">
+            <div class="Projectshowcase">
               <div class="Frame">
                 <img class="Webimage" src={WentzelEvent} alt='' />
                 <h2>Wentzel Event</h2>
@@ -90,6 +97,7 @@ function App() {
               </div>
             </div>
           </section>
+          </html>
       </div>
 
    
